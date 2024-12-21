@@ -1586,3 +1586,59 @@ section,
 .starter-section {
   /* Add your styles here */
 }
+.sidebar {
+  background-color: #f8f9fa;
+  height: 100vh;
+  padding: 20px;
+  position: fixed;
+  width: 250px;
+}
+
+.sidebar .nav-item {
+  margin-bottom: 20px;
+}
+
+.sidebar .nav-link {
+  color: #5a5a5a;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.sidebar .nav-link:hover {
+  color: #000;
+}
+
+.sidebar .nav-link i {
+  font-size: 20px;
+  margin-right: 10px;
+  color: #5a5a5a;
+}
+
+.content {
+  margin-left: 270px;
+  padding: 40px;
+}
+
+.content h1 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.content p {
+  font-size: 18px;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.content hr {
+  margin: 30px 0;
+}
+
+.content h2 {
+  font-size: 20px;
+  font-weight: bold;
+}
