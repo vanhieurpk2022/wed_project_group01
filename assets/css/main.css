@@ -1586,3 +1586,69 @@ section,
 .starter-section {
   /* Add your styles here */
 }
+.table {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);
+}
+
+.table thead th {
+  background-color: var(--accent-color);
+  color: white;
+  font-weight: 600;
+  border: none;
+}
+
+.table td, .table th {
+  padding: 1rem;
+  vertical-align: middle;
+}
+
+.table a {
+  color: var(--accent-color);
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.table a:hover {
+  color: var(--default-color);
+}
+.status-badge {
+      padding: 4px 12px;
+      border-radius: 20px;
+      font-size: 0.875rem;
+      font-weight: 500;
+      display: inline-block;
+      text-align: center;
+    }
+.status-completed {
+  background: #dcfce7;
+  color: #166534;
+}
+
+.status-in-progress {
+  background: #fff7ed;
+  color: #9a3412;
+}
+
+.status-pending {
+  background: #fef2f2;
+  color: #991b1b;
+}
+
+.nav-tabs {
+  border-bottom: 2px solid #e2e8f0;
+  margin-bottom: 1rem;
+}
+
+.nav-tabs .nav-link {
+  color: var(--default-color);
+  font-weight: 600;
+  padding: 1rem 1.5rem;
+}
+
+.nav-tabs .nav-link.active {
+  border-bottom: 2px solid var(--accent-color);
+  color: var(--background-color);
+  background: var(--accent-color);
+}
