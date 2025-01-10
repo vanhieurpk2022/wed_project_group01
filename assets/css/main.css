@@ -1685,7 +1685,6 @@ border: none;
   border-bottom: 2px solid var(--accent-color);
   color: var(--background-color);
   background: var(--accent-color);
-  box-shadow: 0 0rem 1rem var(--accent-color);
 
 }
 
