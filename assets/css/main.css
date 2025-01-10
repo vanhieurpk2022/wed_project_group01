@@ -692,6 +692,39 @@ section,
 .section-title p {
   margin-bottom: 0;
 }
+/*   titelSecond */
+.section-titleSecond {
+  text-align: center;
+  padding-top: 60px;
+  position: relative;
+}
+
+.section-titleSecond h2 {
+  font-size: 32px;
+  font-weight: 700;
+  position: relative;
+}
+
+.section-titleSecond h2:before,
+.section-titleSecond h2:after {
+  content: "";
+  width: 50px;
+  height: 3px;
+  background: var(--accent-color);
+  display: inline-block;
+}
+
+.section-titleSecond h2:before {
+  margin: 0 15px 10px 0;
+}
+
+.section-titleSecond h2:after {
+  margin: 0 0 10px 15px;
+}
+
+.section-titleSecond p {
+  margin-bottom: 0;
+}
 
 /*--------------------------------------------------------------
 # Hero Section
@@ -1637,18 +1670,41 @@ section,
 }
 
 .nav-tabs {
-  border-bottom: 2px solid #e2e8f0;
+  border-bottom: 1px solid var(--accent-color);
   margin-bottom: 1rem;
 }
 
 .nav-tabs .nav-link {
   color: var(--default-color);
   font-weight: 600;
-  padding: 1rem 1.5rem;
+border: none;
+
 }
 
 .nav-tabs .nav-link.active {
   border-bottom: 2px solid var(--accent-color);
   color: var(--background-color);
   background: var(--accent-color);
+  box-shadow: 0 0rem 1rem var(--accent-color);
+
 }
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  padding: 1rem;
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+
+
+
+
